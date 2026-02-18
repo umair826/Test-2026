@@ -1,0 +1,5 @@
+{
+  "name": "DeFi Pro AMM Simulator",
+  "description": "A sophisticated Automated Market Maker (AMM) simulator for DeFi professionals to model liquidity pools, calculate price impact, estimate impermanent loss, and receive AI-powered strategy insights.",
+  "requestFramePermissions": []
+}
