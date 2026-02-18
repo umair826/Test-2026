@@ -1,12 +1,11 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { Theme, Pool, LiquidityStats } from './types';
-import { INITIAL_POOL } from './constants';
-import Header from './components/Header';
-import ThemeToggle from './components/ThemeToggle';
-import SwapCard from './components/SwapCard';
-import PriceChart from './components/PriceChart';
-import StrategyAIAgent from './components/StrategyAIAgent';
+import { Theme, Pool, LiquidityStats } from './types.ts';
+import { INITIAL_POOL } from './constants.ts';
+import ThemeToggle from './components/ThemeToggle.tsx';
+import SwapCard from './components/SwapCard.tsx';
+import PriceChart from './components/PriceChart.tsx';
+import StrategyAIAgent from './components/StrategyAIAgent.tsx';
 
 const App: React.FC = () => {
   const [theme, setTheme] = useState<Theme>(() => {
